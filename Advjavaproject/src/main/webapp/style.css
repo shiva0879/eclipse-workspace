@@ -1,0 +1,112 @@
+.css
+*{
+    margin: 100px;
+    padding: 0px;
+}
+.body{
+	background-position: center;
+}
+.main{
+    width: 0%;
+    background:linear-gradient(to top,rgba(10,10,10,10)20%,rgba(0,0,0,0.5)20%),url(websiteimage.jpg)25%;
+    background-position: center;
+    background-size: contain;
+    height: 109vh;
+}
+.menu{
+	width: 400px;
+float: left;
+height: 40px;
+}
+.navbar{
+    width: 1200px;
+    height: 100px;
+    margin: 30px;
+}
+ul{
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+ul li{
+    list-style: square;
+    margin-left: 45px;
+    margin-top: 0px;
+    font-size: 18px;
+    font-style: oblique;
+
+}
+ul li img{
+    height: 80px;
+    margin-top: 5%;
+    padding-right:50px;
+    padding: left 25px;
+    background-color:red;
+}
+l li a{
+    text-decoration: none;
+    color: white;
+    font-family: Arial;
+    transition: 0.4s ease-in-out;
+
+}
+ul li a .btn{
+    background-color:#ff7200;
+    height: 30px;
+    width: 70px;
+}
+
+ul li a:hover{
+    color: orange;
+}
+.content{
+    width: 500px;
+    height: 500px;
+    margin: 20px;
+    color: lightgreen;
+    position: absolute;
+}
+.content h1{
+    font-family: 'serif';
+    font-size: 30px;
+    padding-left: 30px;
+    margin-top: 25%;
+    color:olive;
+    letter-spacing: 2px;
+}
+.content h2{
+    padding-left: 40px;
+  color:green;
+  margin-top:0%;
+ font-family:Cursive;
+    
+}
+.content .cn{
+    width: 160px;
+    height: 40px;
+    background:#ff7200;
+    border: none;
+    margin-bottom: 10px;
+    margin-left: 30px;
+    font-size: 18px;
+    border-radius: 10px;
+    cursor: pointer;
+
+}
+.content p{
+    color: aqua;
+    font-size:25px;
+    padding-left:30px;
+    font-family: italic;
+    font-style:italic;
+    letter-spacing: 1px;
+    line-height: 20px;
+}
+.main2{
+    width: 100%;
+    background:linear-gradient(to top,rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%),url(websiteimage.jpg)50%;
+    background-position: center;
+    background-size: cover;
+    height: 109vh;
+}

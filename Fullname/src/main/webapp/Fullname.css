@@ -1,0 +1,8 @@
+body{
+	background-color: solidgreen;
+	padding: 5px;
+	border:2px solidred;
+	border-radius: 10px;
+	text-align: center;
+	margin-top: 30px;
+}

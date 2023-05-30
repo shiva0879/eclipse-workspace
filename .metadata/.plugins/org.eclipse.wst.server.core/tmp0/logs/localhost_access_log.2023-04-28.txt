@@ -1,0 +1,17 @@
+127.0.0.1 - - [28/Apr/2023:11:39:14 +0530] "GET / HTTP/1.1" 404 751
+0:0:0:0:0:0:0:1 - - [28/Apr/2023:11:39:14 +0530] "GET /FirstProject/ HTTP/1.1" 404 768
+0:0:0:0:0:0:0:1 - - [28/Apr/2023:11:39:14 +0530] "GET /favicon.ico HTTP/1.1" 404 762
+0:0:0:0:0:0:0:1 - - [28/Apr/2023:11:39:39 +0530] "GET /FirstProject/Project.html HTTP/1.1" 200 2357
+0:0:0:0:0:0:0:1 - - [28/Apr/2023:11:39:39 +0530] "GET /FirstProject/Project.css HTTP/1.1" 200 550
+0:0:0:0:0:0:0:1 - - [28/Apr/2023:11:39:39 +0530] "GET /FirstProject/madhench.jpg HTTP/1.1" 200 30915
+0:0:0:0:0:0:0:1 - - [28/Apr/2023:11:40:43 +0530] "POST /FirstProject/RegistrationServlet HTTP/1.1" 500 1517
+0:0:0:0:0:0:0:1 - - [28/Apr/2023:11:43:30 +0530] "POST /FirstProject/RegistrationServlet HTTP/1.1" 500 1517
+127.0.0.1 - - [28/Apr/2023:11:54:12 +0530] "GET / HTTP/1.1" 404 751
+0:0:0:0:0:0:0:1 - - [28/Apr/2023:11:54:13 +0530] "GET /FirstProject/ HTTP/1.1" 404 768
+0:0:0:0:0:0:0:1 - - [28/Apr/2023:11:54:21 +0530] "GET /FirstProject/p HTTP/1.1" 404 769
+0:0:0:0:0:0:0:1 - - [28/Apr/2023:11:54:31 +0530] "GET /FirstProject/Project.html HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [28/Apr/2023:11:54:31 +0530] "GET /FirstProject/Project.css HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [28/Apr/2023:11:55:14 +0530] "POST /FirstProject/RegistrationServlet HTTP/1.1" 200 148
+0:0:0:0:0:0:0:1 - - [28/Apr/2023:11:57:11 +0530] "POST /FirstProject/RegistrationServlet HTTP/1.1" 200 196
+0:0:0:0:0:0:0:1 - - [28/Apr/2023:11:57:25 +0530] "POST /FirstProject/RegistrationServlet HTTP/1.1" 200 196
+0:0:0:0:0:0:0:1 - - [28/Apr/2023:11:57:53 +0530] "POST /FirstProject/RegistrationServlet HTTP/1.1" 200 197

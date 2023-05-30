@@ -1,0 +1,17 @@
+127.0.0.1 - - [08/Apr/2023:11:22:56 +0530] "GET / HTTP/1.1" 404 751
+0:0:0:0:0:0:0:1 - - [08/Apr/2023:11:23:00 +0530] "GET /Generate_number/ HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [08/Apr/2023:11:23:01 +0530] "GET /favicon.ico HTTP/1.1" 404 762
+0:0:0:0:0:0:0:1 - - [08/Apr/2023:11:23:07 +0530] "GET /Generate_number/GenerateServlet?first+num=23&second+num=34&test=Even HTTP/1.1" 200 24
+0:0:0:0:0:0:0:1 - - [08/Apr/2023:11:23:11 +0530] "GET /Generate_number/ HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [08/Apr/2023:11:23:16 +0530] "GET /Generate_number/GenerateServlet?first+num=23&second+num=43&test=odd HTTP/1.1" 200 44
+0:0:0:0:0:0:0:1 - - [08/Apr/2023:11:23:21 +0530] "GET /Generate_number/GenerateServlet?first+num=23&second+num=43&test=prime HTTP/1.1" 200 1440
+0:0:0:0:0:0:0:1 - - [08/Apr/2023:11:24:08 +0530] "GET /Generate_number/GenerateServlet?first+num=23&second+num=43&test=perfect HTTP/1.1" 200 -
+0:0:0:0:0:0:0:1 - - [08/Apr/2023:11:24:11 +0530] "GET /Generate_number/GenerateServlet?first+num=23&second+num=43&test=perfect HTTP/1.1" 200 -
+0:0:0:0:0:0:0:1 - - [08/Apr/2023:11:24:15 +0530] "GET /Generate_number/GenerateServlet?first+num=23&second+num=43&test=lucky HTTP/1.1" 200 -
+0:0:0:0:0:0:0:1 - - [08/Apr/2023:11:24:42 +0530] "GET /favicon.ico HTTP/1.1" 404 762
+0:0:0:0:0:0:0:1 - - [08/Apr/2023:11:24:50 +0530] "GET /Generate_number/GenerateServlet?first+num=1999&second+num=&test=lucky HTTP/1.1" 500 1396
+127.0.0.1 - - [08/Apr/2023:11:26:10 +0530] "GET / HTTP/1.1" 404 751
+0:0:0:0:0:0:0:1 - - [08/Apr/2023:11:26:14 +0530] "GET /favicon.ico HTTP/1.1" 404 762
+0:0:0:0:0:0:0:1 - - [08/Apr/2023:11:26:21 +0530] "GET /Generate_number/GenerateServlet?first+num=1999&second+num=&test=lucky HTTP/1.1" 500 1396
+0:0:0:0:0:0:0:1 - - [08/Apr/2023:11:26:30 +0530] "GET /Generate_number/GenerateServlet?first+num=1999&second+num=2121&test=lucky HTTP/1.1" 200 -
+0:0:0:0:0:0:0:1 - - [08/Apr/2023:11:26:35 +0530] "GET /Generate_number/GenerateServlet?first+num=1999&second+num=2121&test=lucky HTTP/1.1" 200 -

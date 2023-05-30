@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="C:\Users\psk87\OneDrive\Desktop\madhench.jpg">
+<link rel="stylesheet" href="Project.css">
+<title>Registration form</title>
+</head>
+<body >
+<div class="img-container">
+  <img src="madhench.jpg" alt="Example Image" >
+</div>
+<fieldset class="field">
+<legend >Register Form</legend>
+
+<div class="form-container">
+
+
+<form  class= "shiva"method="post" action="RegistrationServlet">
+User name:<input type="text" name="Username" placeholder="Username"><br><br>
+Password:<input type="text" name="Password" placeholder="Password"><br><br>
+Email:<input type="text" name="Email" placeholder="Email"><br><br>
+<div>
+Country:
+<select name="Country">
+<option value="India">India</option>
+<option value="Usa">Usa</option>
+<option value="Chigago">Chigago</option>
+<option value="France">France</option></select>
+
+</div><br>
+<div>
+Gender:<input type="radio" name="Gender" id="male">
+<span id="male">Male</span>
+<input type="radio" name="Gender" id="Female">
+<span id="female">Female</span>
+<input type="radio" name="Gender" id="Other">
+<span id="Other">Other</span>
+</div><br>
+<div class="from-container">
+Qualification:<input type="checkbox" name="Qualification" id="Btech">
+<span id="Btech">Btech</span>
+<input type="checkbox" name="Qualification" id="Mtech">
+<span id="Mtech">Mtech</span>
+<input type="checkbox" name="Qualification" id="Phd">
+<span id="Phd">Phd</span><br>
+</div>
+<div>
+Course:<select name="Course" multiple="multiple">
+<option value="Corejava">Corejava</option>
+<option value="Advjava">Advjava</option>
+<option value="Spring">Spring</option>
+<option value="Sprinboot">Sprinboot</option>
+<option value="Microservices">Microservices</option>
+</select>
+
+
+</div>
+<div>
+<fieldset >
+<legend>Address</legend>
+Address:<input type="text" name="Address" placeholder="Address"><br><br>
+Area:<input type="text"    name="Area" placeholder="Area"><br><br>
+City:<input type="text"    name="City" placeholder="City"><br><br>
+Pin code:<input type="text" name="Pincode" placeholder="Pincode">
+</fieldset>
+</div><br>
+
+<div>
+Comment:<textarea name="comments" cols="60" rows="3"></textarea>
+
+</div>
+<div style="text-align:center">
+<input  type="submit" value="Submit">
+</div>
+
+
+
+</form>
+</div>
+</fieldset>
+
+</body>
+</html>
+
+
+
+
+
+
